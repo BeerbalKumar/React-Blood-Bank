@@ -108,7 +108,7 @@ class ClassicFormPage extends React.Component {
                           ref={this.textInput1}
                           onChange={(e) => this.setState({ email: e.target.value })}
                           hint="Email"
-                          outline="black"
+                          outline
                         />
                         <MDBInput
                           ref={this.textInput2}
